@@ -24,11 +24,11 @@ export const Content = styled.div`
 export const Label = styled.label`
     font-size: 18px;
     font-weight: 600;
-    color: #676767;
+    color: #000;
 `;
 export const LabelSignUp = styled.label`
     font-size: 16px;
-    color: #676767;
+    color: #000;
 `;
 
 export const LabelError = styled.label`
@@ -40,5 +40,22 @@ export const Strong = styled.strong`
     a {
         text-decoration: none;
         color: #676767;
+    }
+`;
+export const Button = styled.button`
+    padding: 16px 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    background: rgb(165,41,125);
+    background: linear-gradient(90deg, rgba(165,41,125,1) 50%, rgba(254,95,84,1) 100%);
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    max-width: 350px;
+    @media (max-width: 375px){
+        width: 100%;
     }
 `;
